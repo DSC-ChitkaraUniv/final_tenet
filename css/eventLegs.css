@@ -1,0 +1,391 @@
+.eventp {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.eventp:hover {
+  opacity: 1;
+}
+.eventh5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: uppercase;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.eventImg {
+  width: auto;
+  height: 300px;
+}
+
+.eventcard {
+  border-radius: 20px;
+  margin-bottom: 60px;
+  height: 500px;
+  width: auto;
+  cursor: pointer;
+  margin-left: 100px;
+}
+/* .eventcard:hover {
+  height: 500px;
+} */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.privacy {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: -180px;
+  font-size: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+.privacy:hover {
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.fab {
+  color: white;
+}
+
+.mainimg {
+  /* margin-left: 2rem; */
+  height: 450px;
+}
+
+.aboutP {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.acha {
+  width: 50px;
+}
+
+.heroPic-div {
+  height: 100%;
+  width: 100%;
+  /* border: solid white; */
+  /* background-color: white; */
+}
+@media only screen and (max-width: 991px){
+  .footer_section_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .privacy {
+    margin: 30px auto;    
+    }
+    
+    
+}
+@media only screen and (max-width: 768px) {
+  .mainimg {
+    margin-top: -100px;
+    height: 400px;
+  }
+}
+.ffooter{
+  width:auto;
+  height:3rem;
+}
+@media only screen and (max-width: 768px) {
+  .mainH1 {
+    margin-left: 40px;
+  }
+  .register {
+    margin-left: 40px;
+  }
+  .mainimg {
+    padding-left: 40px;
+  }
+  .ffooter{
+    height: 2.5rem;
+  }
+  .eventLegsContain {
+    padding-right: 30px;
+  }
+  .sponsorH1 {
+    margin-left: 10px;
+  }
+  #preloader {
+    background-size: 20%;
+  }
+  .ham {
+    height: 30px;
+  }
+  .heroPic-div {
+    display: block;
+    height: 100px;
+  }
+  .footer_section_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footImg{
+    width: fit-content;
+ 
+  }
+  .aboutP{
+    margin-left: 6px;
+  }
+  /* .logoImg {
+    margin-left: 10px;
+    margin-bottom: 20px;
+  } */
+  .sponDiv{
+    padding: 20px;
+  }
+  .evenDIV{
+    margin-right: 100px;
+  }
+  .privacy {
+  margin: 20px auto;    
+  }
+  
+  .social_icons {
+    margin-left: -2%;
+    width: 150%;
+  }
+  .aboutP {
+    font-size: 20px;
+  }
+  .mainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+  }
+  .mainimg {
+    margin-top: -100px;
+    height: 300px;
+  }
+}
+
+/* flip wala code  */
+
+.flip-card {
+  background-color: transparent;
+  width: auto;
+  height: 500px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+.general-container {
+  padding-top: 25px;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  width: 30rem;
+  height: 30rem;
+}
+.card .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.card .front {
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000;
+}
+.card .front img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card .front h3 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.card .back {
+  transform: perspective(600px) rotateY(180deg);
+  /* background: rgb(73, 85, 91); */
+  background: #8500ff;
+  padding: 15px;
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
+}
+#preloader {
+  background: #000 url("/assets/BeanEater-1s-200px.gif") no-repeat center center;
+  background-size: 10%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+.card .back h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+.card .back p {
+  letter-spacing: 1px;
+}
+.card:hover .front {
+  transform: perspective(600px) rotateY(180deg);
+}
+.card:hover .back {
+  transform: perspective(600px) rotateY(360deg);
+}
+.box {
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .general-container {
+    margin-top: -50px;
+  }
+}
+@media (max-width: 1200px) {
+  .card {
+    position: relative;
+    width: 100%;
+    margin: 0rem;
+  }
+  .mainimg {
+    /* margin-left: 1rem; */
+    height: 425px;
+  }
+}
+@media (max-width: 991px) {
+  .card {
+    position: relative;
+    
+    margin: 0rem;
+    padding: 0%;
+  }
+  .mainimg {
+    /* margin-left: 0.5rem; */
+    height: 310px;
+  }
+}
+@media (max-width: 770px) {
+  .mainimg {
+    margin-left: 3.2rem;
+    height: 300px;
+  }
+}
+@media (max-width: 480px) {
+  .mainimg {
+    margin-left: 0.5rem;
+    height: 250px;
+  }
+  .card {
+    position: relative;
+    height: 30rem;
+    width: 100%;
+    margin: 0;
+  }
+  .web{
+    height: 30rem;
+  }
+}
+
+
+.eventcard{
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1200px){
+  .eventcard{
+    margin-left: 10px;
+  }
+}
+
+
+.d-block{
+	width: 25%;
+	height: 25%;
+}
+
+@media (max-width: 991px){
+	.d-block{
+		width: 250px;
+	}
+
+}

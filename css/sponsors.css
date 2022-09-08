@@ -1,0 +1,154 @@
+.Sponsors {
+	margin-top: 30px;
+	background-color: transparent;
+	padding-bottom: 15px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.Sponsors-container {
+	max-width: 80vw;
+}
+
+.Sponsors div {
+	cursor: pointer;
+}
+
+.Sponsors_description {
+	color: rgb(238, 224, 224);
+	text-align: center;
+	border-radius: 25px;;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 36px;
+}
+
+.sponsor-title {
+	color: rgb(236, 230, 217);
+	font-size: 3rem;
+	font-weight: 600;
+	margin-bottom: 20px;
+	margin-left: 0;
+	padding-top: 35px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+
+.awesome {
+	color: var(--purple-shade);
+}
+
+.Sponsors-card {
+	border-radius: 20px;
+	margin-top: 4rem;
+	padding: 2%;
+	padding-left: 4%;
+	transition: all ease-in-out 0.4s;
+	background: linear-gradient(90deg, rgba(139, 24, 255, 0.7) 0%, rgba(139, 24, 255, 0.36) 51.22%, rgba(139, 24, 255, 0.7) 100%);
+	border-radius: 25px;
+}
+
+.card-images {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card-images img {
+	height: 40px;
+	width: 100px;
+	margin-right: 3%;
+	margin-top: 20px;
+}
+
+.card-images {
+	justify-content: space-around;
+}
+
+
+.card-images a {
+	margin: 0 50px;
+}
+
+a img {
+	width: 308px;
+	height: 68px;
+}
+
+
+.sponsors-up {
+	display: flex;
+}
+
+.sponImg{
+	width: 280px;
+}
+.sponsors-down {
+	display: flex;
+	margin-bottom: 15px;
+}
+@media only screen and (max-width: 1100px) {
+	.sponImg{
+		width: 200px;
+	}
+}
+
+@media (max-width: 960px) {
+	.Sponsors-card{
+		border-radius: 40px;
+		height:auto;
+	}
+	.sponsors-up {
+		display: flex;
+		flex-direction: column;
+		margin-left: -20px;
+		margin-bottom: 20px;
+	}
+	.sponsors-down {
+		display: flex;
+		flex-direction: column;
+		margin-left: -20px;
+
+	}
+}
+@media only screen and (max-width: 768px) {
+	.Sponsors-card{
+		border-radius: 40px;
+		height: auto;
+	}
+	.sponsors-up {
+		display: flex;
+		flex-direction: column;
+		margin-left: -20px;
+		margin-bottom: 20px;
+	}
+	.sponsors-down {
+		display: flex;
+		flex-direction: column;
+		margin-left: -20px;
+
+	}
+}
+@media only screen and (max-width: 600px) {
+	.Sponsors-card{
+		border-radius: 40px;
+		height: auto;
+		margin-left: -20px;
+	}
+	.sponsors-up {
+		display: flex;
+		flex-direction: column;
+		margin-left: -20px;
+		margin-bottom: 0px;
+	}
+	.sponsors-down {
+		display: flex;
+		flex-direction: column;
+		margin-left: -20px;
+
+	}
+}
+@media only screen and (max-with :400px){
+	
+}
