@@ -7,7 +7,9 @@
   margin: 0%;
   scroll-behavior: smooth;
 }
-
+div{
+  border: #8500ff 1px solid;
+}
 body {
   background-image: radial-gradient(rgba(37, 14, 40), #0d0b0c);
   background-color: #0d0b0c;
