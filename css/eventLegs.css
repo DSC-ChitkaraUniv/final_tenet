@@ -112,15 +112,11 @@
   height:3rem;
 }
 @media only screen and (max-width: 768px) {
-  .mainH1 {
-    margin-left: 40px;
-  }
+ 
   .register {
     margin-left: 40px;
   }
-  .mainimg {
-    padding-left: 40px;
-  }
+ 
   .ffooter{
     height: 2.5rem;
   }
