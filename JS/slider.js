@@ -21,7 +21,8 @@ function start() {
         const prevSlideButton = document.getElementById("prev-slide");
         const nextSlideButton = document.getElementById("next-slide");
 
-        prevSlideButton.addEventListener("click", () => {
+        prevSlideButton.addEventListener("click", () => 
+        {
             navigate("backward", config);
         });
 
