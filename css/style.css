@@ -115,7 +115,7 @@ nav {
 }
 
 .dropOn {
-  height: calc(200px + 2rem);
+  height: calc(250px + 2rem);
 }
 
 @media screen and (max-width: 935px) {
@@ -232,7 +232,7 @@ nav {
 }
 
 .footer_section_3 {
-  width: 95vw;
+  width: 100%;
   display: flex;
   /* flex-direction: column; */
   justify-content: space-between;
@@ -419,3 +419,9 @@ button:hover:after {
 button:active {
   top: 1px;
 }
+
+
+
+/* div{
+  border: 2px solid red;
+} */

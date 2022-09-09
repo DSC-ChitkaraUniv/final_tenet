@@ -1,3 +1,17 @@
+.card {
+  height: 100%;
+  width: 18rem;
+  padding: 0px;
+  margin: 0px;
+}
+
+.card-img-top {
+  width: 14rem;
+  height: 14rem;
+  margin: 0 auto;
+}
+
+
 .eventp {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -11,6 +25,7 @@
 .eventp:hover {
   opacity: 1;
 }
+
 .eventh5 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -35,6 +50,7 @@
   cursor: pointer;
   margin-left: 100px;
 }
+
 /* .eventcard:hover {
   height: 500px;
 } */
@@ -74,6 +90,7 @@
 
   color: #ffffff;
 }
+
 .acha {
   width: 50px;
 }
@@ -84,87 +101,116 @@
   /* border: solid white; */
   /* background-color: white; */
 }
-@media only screen and (max-width: 991px){
+
+#preloader {
+  background: #000 url("../assets/preloader.gif") no-repeat center center;
+  background-size: 10%;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+@media only screen and (max-width: 991px) {
   .footer_section_3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .privacy {
-    margin: 30px auto;    
-    }
-    .footA{
-      margin-left: 0px !important;
-    }
-    
+    margin: 30px auto;
+  }
+
+  .footA {
+    margin-left: 0px !important;
+  }
+
 }
+
 @media only screen and (max-width: 768px) {
   .mainimg {
     margin-top: -100px;
     height: 400px;
   }
 }
-.ffooter{
-  width:270px;
-  height:auto;
+
+.ffooter {
+  width: 270px;
+  height: auto;
 }
+
 @media only screen and (max-width: 768px) {
- 
+
   .register {
     margin-left: 40px;
   }
- 
-  .ffooter{
+
+  .ffooter {
     height: 2.5rem;
   }
+
   .eventLegsContain {
     padding-right: 30px;
   }
 
   #preloader {
-    background-size: 20%;
+    background-size: 15%;
   }
+
   .ham {
     height: 30px;
   }
+
   .heroPic-div {
     display: block;
     height: 100px;
   }
+
   .footer_section_3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .footImg{
+
+  .footImg {
     width: fit-content;
- 
+
   }
-  .aboutP{
+
+  .aboutP {
     margin-left: 6px;
   }
+
   /* .logoImg {
     margin-left: 10px;
     margin-bottom: 20px;
   } */
-  .sponDiv{
+  .sponDiv {
     padding: 20px;
   }
-  .evenDIV{
+
+  .evenDIV {
     margin-right: 100px;
   }
+
   .privacy {
-  margin: 20px auto;    
+    margin: 20px auto;
   }
-  
+
   .social_icons {
     width: 150%;
   }
+
   .aboutP {
     font-size: 10px;
   }
+
   .mainDiv {
     display: flex;
     flex-direction: column;
@@ -173,6 +219,7 @@
     align-self: center;
     justify-self: center;
   }
+
   .mainimg {
     margin-top: -100px;
     height: 300px;
@@ -182,24 +229,18 @@
 /* flip wala code  */
 
 
-#preloader {
-  background: #000 url("../assets/preloader.gif") no-repeat center center;
-  background-size: 10%;
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  z-index: 100;
-}
-
 .box {
   text-align: center;
 }
+
 @media (max-width: 991px) {
   .general-container {
     margin-top: -50px;
   }
 }
+
 @media (max-width: 1200px) {
+
   /* .card {
     position: relative;
     margin: 0rem;
@@ -211,59 +252,65 @@
     height: 425px;
   }
 }
+
 @media (max-width: 991px) {
   .card {
     position: relative;
     margin: 0rem;
     padding: 0%;
   }
+
   .mainimg {
     /* margin-left: 0.5rem; */
     height: 310px;
   }
 }
+
 @media (max-width: 770px) {
   .mainimg {
     height: 300px;
   }
 }
+
 @media (max-width: 480px) {
   .mainimg {
     margin-left: 0.5rem;
     height: 250px;
   }
+
   .card {
     position: relative;
     height: 30rem;
     margin: 0;
 
   }
-  .web{
+
+  .web {
     height: 30rem;
   }
 }
 
 
-.eventcard{
+.eventcard {
   margin-left: 50px;
   margin-bottom: 40px;
 }
 
-@media (max-width: 1200px){
-  .eventcard{
+@media (max-width: 1200px) {
+  .eventcard {
     margin-left: 10px;
   }
 }
 
 
-.d-block{
-	width: 25%;
-	height: 25%;
+.d-block {
+  width: 25%;
+  height: 25%;
 }
 
-@media (max-width: 991px){
-	.d-block{
-		width: 250px;
-	}
+@media (max-width: 991px) {
+  .d-block {
+    width: 250px;
+  }
 
 }
