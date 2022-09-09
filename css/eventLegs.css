@@ -105,13 +105,13 @@
 #preloader {
   background: #000 url("../assets/preloader.gif") no-repeat center center;
   background-size: 10%;
-  height: 100%;
-  width: 100%;
-  position: fixed;
+  position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
   z-index: 100;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 
 @media only screen and (max-width: 991px) {
@@ -139,6 +139,10 @@
   }
 }
 
+.card{
+  padding: 5px;
+}
+
 .ffooter {
   width: 270px;
   height: auto;
@@ -159,7 +163,7 @@
   }
 
   #preloader {
-    background-size: 15%;
+    background-size: 20%;
   }
 
   .ham {
@@ -208,7 +212,7 @@
   }
 
   .aboutP {
-    font-size: 10px;
+    font-size: 20px;
   }
 
   .mainDiv {
@@ -313,4 +317,12 @@
     width: 250px;
   }
 
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.card{
+  padding: 10px;
 }
