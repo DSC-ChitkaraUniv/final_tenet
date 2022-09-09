@@ -41,9 +41,7 @@
 ::-webkit-scrollbar {
   display: none;
 }
-.footA{
-  margin-left: -180px !important;
-}
+
 .privacy {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -67,8 +65,8 @@
 .aboutP {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 27px;
+  font-weight: 334;
+  font-size: 24px;
   line-height: 48px;
   display: flex;
   align-items: center;
@@ -108,8 +106,8 @@
   }
 }
 .ffooter{
-  width:auto;
-  height:3rem;
+  width:270px;
+  height:auto;
 }
 @media only screen and (max-width: 768px) {
  
@@ -165,7 +163,7 @@
     width: 150%;
   }
   .aboutP {
-    font-size: 20px;
+    font-size: 10px;
   }
   .mainDiv {
     display: flex;
@@ -183,107 +181,7 @@
 
 /* flip wala code  */
 
-.flip-card {
-  background-color: transparent;
-  width: auto;
-  height: 500px;
-  perspective: 1000px;
-}
 
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-.flip-card-back {
-  background-color: #2980b9;
-  color: white;
-  transform: rotateY(180deg);
-}
-
-
-.general-container {
-  padding-top: 25px;
-}
-
-.table {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.card {
-  position: relative;
-  width: 30rem;
-  height: 30rem;
-}
-.card .face {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  border-radius: 10px;
-  overflow: hidden;
-  transition: 0.5s;
-}
-.card .front {
-  transform: perspective(600px) rotateY(0deg);
-  box-shadow: 0 5px 10px #000;
-}
-.card .front img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.card .front h3 {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 45px;
-  line-height: 45px;
-  color: white;
-  background: rgba(0, 0, 0, 0.4);
-  text-align: center;
-}
-
-.card .back {
-  transform: perspective(600px) rotateY(180deg);
-  /* background: rgb(73, 85, 91); */
-  background: #8500ff;
-  padding: 15px;
-  color: #f3f3f3;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
-  box-shadow: 0 5px 10px #000;
-}
 #preloader {
   background: #000 url("../assets/preloader.gif") no-repeat center center;
   background-size: 10%;
@@ -292,20 +190,7 @@
   position: fixed;
   z-index: 100;
 }
-.card .back h3 {
-  font-size: 30px;
-  margin-top: 20px;
-  letter-spacing: 2px;
-}
-.card .back p {
-  letter-spacing: 1px;
-}
-.card:hover .front {
-  transform: perspective(600px) rotateY(180deg);
-}
-.card:hover .back {
-  transform: perspective(600px) rotateY(360deg);
-}
+
 .box {
   text-align: center;
 }
@@ -315,11 +200,12 @@
   }
 }
 @media (max-width: 1200px) {
-  .card {
+  /* .card {
     position: relative;
-    width: 100%;
     margin: 0rem;
-  }
+    padding: 0px 5px 5px 5px !important;
+    
+  } */
   .mainimg {
     /* margin-left: 1rem; */
     height: 425px;
@@ -328,7 +214,6 @@
 @media (max-width: 991px) {
   .card {
     position: relative;
-    
     margin: 0rem;
     padding: 0%;
   }
@@ -350,8 +235,8 @@
   .card {
     position: relative;
     height: 30rem;
-    width: 100%;
     margin: 0;
+
   }
   .web{
     height: 30rem;
