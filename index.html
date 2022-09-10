@@ -45,6 +45,7 @@
 <body>
 
 	<div id="preloader"></div>
+	<div id="MainContentDiv">
 	<nav>
 		<div class="container desktop">
 			<div class="row justify-content-between">
@@ -493,9 +494,10 @@
 	<script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
 	<script>
 		var loader = document.getElementById("preloader");
-
+		var Web = document.getElementById("MainContentDiv");
 		window.addEventListener('load', function () {
 			loader.style.display = "none";
+			Web.style.display = "block";
 		})
 
 	</script>

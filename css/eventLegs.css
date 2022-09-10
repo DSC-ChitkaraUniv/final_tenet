@@ -4,7 +4,9 @@
   padding: 0px;
   margin: 0px;
 }
-
+#MainContentDiv{
+  display: none;
+}
 .card-img-top {
   width: 14rem;
   height: 14rem;
