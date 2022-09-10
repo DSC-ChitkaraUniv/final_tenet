@@ -106,7 +106,7 @@
 
 #preloader {
   background: #000 url("../assets/tenetLogoPreloader.gif") no-repeat center center;
-  background-size: 10%;
+  background-size: 20%;
   position: absolute;
 	margin: auto;
 	top: 0;
@@ -171,7 +171,7 @@
   }
 
   #preloader {
-    background-size: 20%;
+    background-size: 35%;
   }
 
   .ham {
